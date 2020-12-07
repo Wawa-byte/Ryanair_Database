@@ -15,7 +15,7 @@ public class Main {
     public static void main(String[] args) throws SQLException {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/Ryanair?user=root&password=Waleedakhtar02");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/Ryanair?user=root&password=ryanairdata");
             System.out.println ("Database connection established");
             Statement s = conn.createStatement();
 
